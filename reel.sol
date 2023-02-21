@@ -3425,7 +3425,7 @@ contract ReelT is ERC20, ERC20Snapshot, ERC20Permit, ERC20Votes {
 
 
     constructor() ERC20("Reel Token", "ReelT") ERC20Permit("ReelT") {
-        _mint(msg.sender, 250000000000000000000000000);
+        _mint(msg.sender, 15000000000000000000000000000);
     }
 
     function _beforeTokenTransfer(address from, address to, uint256 amount)
